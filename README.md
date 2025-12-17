@@ -25,38 +25,5 @@ It predicts gestures based on hand landmark features extracted using MediaPipe, 
    - Fast and lightweight
    - Works without heavy computation
 
-# Project Structure
-dual-approach-gesture-recognition
-  |- Hand Gesture Recognition using CNN
-     |- dataset:
-        train
-        test
-     |- model:
-        cnn_model.ipynb
-        trained_model.h5
-     |- src:
-        train.py
-        preprocess.py
-        realtime_test.py
-     |- README.md 
-     |- requirements.txt  
-     
-  |- Hand Gesture Recognition using RF
-     |- dataset:
-        X_test.npy
-        X_train.npy
-        labels.txt
-        y_test.npy
-        y_train.npy
-     |- model:
-        rf_model.py
-        trained_model.h5
-     |- src:
-        train.py
-        preprocess.py
-        realtime_test.py
-     |- README.md 
-     |- requirements.txt  
-        
 
 
